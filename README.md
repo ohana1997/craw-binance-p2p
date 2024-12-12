@@ -6,7 +6,7 @@ Sample usage
 
 ```javascript
      const { getTransactions } = require('craw-binance-p2p');
-     const result = await getTransactions({ fiat: 'USD', tradeType: 'SELL' })
+     const result = await getTransactions({ fiat: 'USD', tradeType: 'SELL', asset: 'USDT', rows: 5})
 
     // response
     /**
