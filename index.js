@@ -23,7 +23,7 @@ function getKeysOnDemand(data, keysToKeep) {
   }
 
 
-async function getTransactions(options) {
+async function getAdvertisers(options) {
   const defaultPayload = {
     fiat: 'VND',
     page: 1,
@@ -76,5 +76,5 @@ async function getTransactions(options) {
 }
 
 module.exports = {
-  getTransactions
+  getAdvertisers
 };
