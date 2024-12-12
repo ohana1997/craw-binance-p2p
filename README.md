@@ -13,27 +13,66 @@ Sample usage
      {
         success: true,
         data: [
-                {
-                    adv: {
-                        tradeType: 'BUY',
-                        fiatUnit: 'USD',
-                        price: '1.040',
-                        surplusAmount: '1945930.78',
-                        tradableQuantity: '1945930.78',
-                        minSingleTransAmount: '2000',
-                        maxSingleTransAmount: '100000',
-                        tradeMethods: [
-                            'Array'
-                        ],
-                        fiatSymbol: '$'
-                    },
-                    advertiser: {
-                        nickName: 'TAKE_AND_GIVE',
-                        monthOrderCount: 109,
-                        monthFinishRate: 0.88,
-                        positiveRate: 0.97750913
-	                }
+            {
+                adv: {
+                    tradeType: 'SELL',
+                    fiatUnit: 'USD',
+                    price: '0.990',
+                    surplusAmount: '250.00',
+                    tradableQuantity: '249.30',
+                    minSingleTransAmount: '100',
+                    maxSingleTransAmount: '10000',
+                    tradeMethods: [
+                        {
+                            tradeMethodName: 'Cash Deposit to Bank'
+                        }
+                    ],
+                    fiatSymbol: '$',
+                    payTimeLimit: 15
+                },
+                advertiser: {
+                    nickName: 'BitcomTxm',
+                    monthOrderCount: 180,
+                    monthFinishRate: 0.842,
+                    positiveRate: 0.98962962
                 }
+            },
+            {
+                adv: {
+                    tradeType: 'SELL',
+                    fiatUnit: 'USD',
+                    price: '1.001',
+                    surplusAmount: '24108.82',
+                    tradableQuantity: '24066.70',
+                    minSingleTransAmount: '500',
+                    maxSingleTransAmount: '5000',
+                    tradeMethods: [
+                        {
+                            tradeMethodName: 'KHQR'
+                        },
+                        {
+                            tradeMethodName: 'ABA'
+                        },
+                        {
+                            tradeMethodName: 'ACLEDA Bank'
+                        },
+                        {
+                            tradeMethodName: 'Wing Money'
+                        },
+                        {
+                            tradeMethodName: 'Bank Transfer (Cambodia)'
+                        }
+                    ],
+                    fiatSymbol: '$',
+                    payTimeLimit: 15
+                },
+                advertiser: {
+                    nickName: 'ONE-PIECE-V',
+                    monthOrderCount: 1670,
+                    monthFinishRate: 0.992,
+                    positiveRate: 0.99026763
+                }
+            }
         ],
         message: 'success'
   
