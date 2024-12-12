@@ -5,11 +5,12 @@ Sample usage
    
 
 ```javascript
-     const { getTransactions } = require('./index');
+     const { getTransactions } = require('craw-binance-p2p');
      const result = await getTransactions({ fiat: 'USD', tradeType: 'SELL' })
 
     // response
-    {
+    /**
+     {
         success: true,
         data: [
                 {
@@ -37,6 +38,7 @@ Sample usage
         message: 'success'
   
     }
+    */ 
 ```
 
 
