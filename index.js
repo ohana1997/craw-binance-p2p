@@ -55,7 +55,7 @@ async function getAdvertisers(options) {
     }
 
       const keysToKeep  = ['adv', 'advertiser', 'tradeType', 'fiatUnit', 'price', 'surplusAmount', 'tradableQuantity', 'minSingleTransAmount', 'maxSingleTransAmount',
-           'tradeMethods', 'fiatSymbol',
+           'tradeMethods', 'fiatSymbol', 'payTimeLimit',
             'nickName', 'monthOrderCount', 'monthFinishRate', 'positiveRate','tradeMethodName'
       ]
       const extractedData = getKeysOnDemand(data, keysToKeep)
